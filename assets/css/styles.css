@@ -1,0 +1,1310 @@
+/*
+*   COLOR FONS: #925279
+*   COLOR FOOTER MES FOSC: #754261
+*   light gray: rgb(235, 233, 233)
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #62244c;
+}
+
+.fa-heart{
+    color: #925279;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: "Poiret One";
+    src: url("../fonts/PoiretOne-Regular.ttf");
+}
+
+/*Font estil handwriting pels titols*/
+.font_title{
+    line-height: 40px;
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 36px;
+    font-weight: normal!important;
+    margin-top: 50px;
+    color: #62244c;
+}
+
+/*Font pels subtitols*/
+.font_subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: grey;
+    margin-top: 20px !important;
+}
+
+/*Font per pàrrafs*/
+.font_parraf{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: darkslategrey;
+}
+
+.font_handwriting{
+    font-family: 'Nothing You Could Do', cursive!important;
+}
+
+
+/*HEADER*/
+#user_button{
+    border: 1px solid whitesmoke;
+    border-radius: 60%;
+    color: whitesmoke;
+    float: right;
+    margin-right: 10px;
+}
+
+/*centrar  verticalment el logo i l'accés al registre*/
+#first_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user button:hover{
+    -webkit-box-shadow: 1px 1px 2px 2px rgba(220,230,255,0.41); 
+    box-shadow: 1px 1px 2px 2px rgba(220,230,255,0.41);  
+}
+
+#user button i{
+    font-weight: bold;
+    font-size: 95%;
+    color: whitesmoke;
+}
+
+#btn_search, #btn_subcr{
+    color: whitesmoke;
+    background-color: #925279;
+    border-color: #925279;
+}
+
+#user_area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user_area a{
+    color: whitesmoke;
+}
+
+#user_area a:hover{
+    color: #62244c;
+}
+
+/*******************NAVBAR*******************************/
+#navbar_buscador i{
+    display: inline;
+    padding-left: 10px;
+}
+
+#navbar_buscador button{
+    color: whitesmoke;
+    background-color: #925279;
+    border-color: #925279;
+}
+
+#desplegable_categoria,
+#desplegable_compte{
+    background-color: #c37ea7;
+}
+
+.dropdown-menu a:hover{
+    background-color: #c37ea7;
+}
+
+#navbarSupportedContent a{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*******************CAROUSEL BANNER ***********************/
+
+.carousel-caption {
+    bottom: 30%;
+    left: 42%;
+    
+}
+
+.carousel-caption h5{
+    font-family: 'Poiret One';
+    font-size: 230%;
+    color: #925279;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+
+#llib_cat, #llib_votos, #llib_nous {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  
+/*base de la fletxa esquerra*/
+.carousel-control-prev {
+    margin-left: 0%;
+    position: absolute;
+    max-width: 30px;
+}
+
+/*base de la fletxa dreta*/ 
+.carousel-control-next {
+    margin-right: 0%;
+    max-width: 30px;
+    position: absolute;
+}
+
+/*fletxa esquerra*/
+.carousel-control-prev-icon{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+/*fletxa dreta*/
+.carousel-control-next-icon{
+    position: absolute;
+    top: 50%;
+    left: -70%;
+}
+
+/*icones dreta + esquerra*/
+.fa-arrow-alt-circle-left,
+.fa-arrow-alt-circle-right{
+    font-size: 30px;
+    color: green !important;
+    z-index: 3;
+    opacity: 100% !important;
+}
+
+
+/***************CATEGORIES DESPRÉS L'SLIDE*****************/
+
+#menu_categories{
+    padding: 0;
+}
+
+#menu_drop_categories_home{
+    background-color: #c37ea7;
+}
+
+#menu_drop_categories_home a:hover {
+    background-color: #c37ea7;
+    color: whitesmoke;
+}
+
+/*falta centrar*/
+#nav_content a{
+    padding: 10px 20px;
+    height: inherit;
+}
+
+#nav_content a:hover, #nav_content .active{
+    color: whitesmoke;
+}
+
+#nav_content li{
+    height: 45px;
+}
+
+#nav_content li:hover, #nav_content .active{
+    background-color: #915078;
+}
+
+.nav-pills{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-nav{
+    /*display: flex;
+    justify-content: flex-end;*/
+    padding: 10px 20px!important;
+    background-color:#c37ea7;
+}
+
+#menu-nav li a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#menu-nav ul{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu-nav li a:hover{
+    color: #62244c;
+}
+
+
+/*CARDS*/
+.card{
+    width: 200px;
+    height: 425px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.cover_book{
+    width: 199px;
+    height: 250px;
+    position: relative;
+}
+
+.cover_book img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.checked{
+    color: orange;
+}
+
+.lookIcon{
+    width: 17%;
+    cursor: pointer;
+}
+
+#fitxa_llibres h4{
+    color: #62244c;
+    font-size: 18px;
+}
+
+.card-body{
+    background-color: white;
+}
+
+
+.contenedor_img_fitxa{
+    height: 450px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.contenedor_img_fitxa img{
+    vertical-align: middle;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*test*/
+.align_text_bottom{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: #925279;
+    color: whitesmoke;
+}
+
+footer p{
+    margin-bottom: 0px;
+    padding-top:3%;
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#copyright{
+    background-color:#62244c;
+}
+/*
+#social i{
+    font-size: 120%;
+    cursor: pointer;
+    width: 11%;
+}
+*/
+/*
+#social i:hover{
+    transition: all 400ms;
+    transform: scale(120%);
+}
+*/
+
+.container-fluid{
+    padding: 0px;
+}
+
+/*************  .Fitxa Llibre Especificacions.  ****************/
+
+ /*ESTRELLES VICTOR*/
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: left;
+  font-size: 60px;
+  color: grey;
+  }
+  .clasificacion  > label {
+  color: grey;
+  }
+  .clasificacion  >  input {
+  display: none;
+  }
+  .clasificacion  > label[type="radio"]:hover,
+  .clasificacion  > label[type="radio"]:hover ~ label {
+  color: orange;
+  }
+  .clasificacion  > input[type="radio"]:checked ~ label {
+  color: orange;
+}
+  
+/*fi Victor*/
+
+#info_llibre_area img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#sinopsis{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+.dades_autor_llibre #sinopsis{
+    display: block;
+    padding: 10px;
+}
+
+#valoracions_llibre .fa-star{
+    font-size: 25px;
+}
+
+.author_data span{
+    color: grey;
+}
+
+#dades_autor{
+    border: 1px solid rgb(235, 233, 233);
+}
+
+
+
+
+/*************  .Fitxa Escriptor Especificacions.  ****************/
+
+.imatge-avatar img{
+    width: 150px;
+    height: auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#usuari-section{
+    min-height: 300px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.links_menu_escriptor{
+    color: #212529;
+}
+
+
+/*estilos generales basicos guia de estilos*/
+.primary{
+    background-color: #915078;
+    color: whitesmoke;
+}
+
+.p-light{
+    background-color: #c37ea7;
+    color: black;
+}
+
+.p-dark{
+    background-color: #62244c;
+    color: whitesmoke;
+}
+
+/*Fitxa escriptor
+centra el text e la bio*/
+#biografia_avatar p{
+    margin: 15px;
+}
+
+#nickname-avatar h2{
+    color: #c37ea7;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#llibres_publicats{
+    margin-top: 50px;
+}
+
+/*DASHBOARD LECTOR*/
+/* Profile container */
+.profile {
+    margin: 20px 0;
+    margin-bottom: 0px;
+  }
+  
+  /* Profile sidebar */
+  .perfil-sidebar {
+    padding: 20px 0 10px 0;
+    border: 1px solid #dfdcdc;
+    height: 100%;
+  }
+  
+  .perfil-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+  }
+  
+  .perfil-usertitol {
+    margin-top: 20px;
+  }
+  
+  .perfil-usertitol-nom {
+    color: #62244c;
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 150%;
+    font-weight: 600;
+  }
+  
+  .perfil-usertitol-rol {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 95%;
+    font-weight: 600;
+  }
+  
+      
+  .perfil-usermenu {
+    margin-top: 8%;
+    margin-left: 20%;
+    text-align: left;
+  }
+
+  .perfil-sidebar hr{
+      width: 85%;
+      margin-left: 7%;
+      border: 1px solid gray;
+  }
+  
+  
+  .perfil-usermenu button{
+        width: 75%;
+        color: rgb(68, 68, 68);
+    }
+
+  .perfil-usermenu button.active{
+    background-color: #925279 !important;
+  }
+
+  .perfil-usermenu p{
+      margin-bottom: 0px;
+      
+  }
+  
+.form-check-input:checked {
+    background-color: #925279;
+    border-color: #c37ea7;
+}
+
+#carrega_pdf,
+#carrega_img{
+    color: red;
+    border: 1px dotted rgb(68, 68, 68);
+    padding: 10px;
+}
+
+  
+  /* Perfil Content */
+  .perfil-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+  }
+/*FI DASHBOARD LECTOR*/
+
+#llibres_publicats img{
+    float: right;
+}
+
+.boto_llegeix{
+    background-color: #c37ea7;
+    border-color: none!important;
+    color: whitesmoke;
+}
+
+.boto_llegeix:hover{
+    background-color: #62244c;
+    color: whitesmoke;
+}
+
+.card-header{
+    background-color: #915078;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+
+
+/*Valoracions Estrelles*/
+.fa.fa-star{
+    color: lightgray;
+}
+
+.fa.fa-star.checked{
+    color: rgb(238, 169, 41);
+}
+
+
+/*Panel de control de escritor*/
+#hero_perfil{
+    background-color: #62244c;
+    height: 110px;
+    color: white;
+}
+
+
+.text_title_hero{
+    font-family: 'Oswald', sans-serif!important;
+    font-size: 36px;
+}
+
+/*centrar el text del nom+nickname*/
+#hero_perfil div{
+    display: flex;
+    align-items: center;
+}
+
+#side_menu,
+#content_profile{
+    border: 1px solid rgb(235, 233, 233);
+    margin: 0 10px;
+}
+
+#logout_panell{
+    border-top: 1px solid rgb(235, 233, 233);
+}
+
+.container.perfil_escriptor{
+    max-width: 1190px;
+    padding: 60px 0;
+}
+
+.perfil_escriptor .col,
+#side_menu{
+    padding: 0!important;
+}
+
+#noms_escriptor h2{
+    color: #62244c;
+    font-size: 28px;
+}
+
+.text_nickname{
+    color: #c37ea7;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.links_menu_escriptor:hover{
+    background-color: #62244c!important;
+    color: whitesmoke;
+}
+
+/*centrar tots els textos del menu*/
+#menu_options_escriptor .text_cent_vert{
+    display: flex;
+    align-items: center;
+}
+
+/* Tabs ajustes */
+.nav-pills .nav-link.active,
+ .nav-pills .show>.nav-link{
+    background-color: #62244c;
+}
+
+/*Treure el radius per defecte dels tabs de bootstrap*/
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+
+#avatar_escriptor_area .form-check, #avatar_lector_area .form-check{
+    display: inline-block;
+}
+
+
+
+/*      Pagina login     */
+
+#login_body{
+    background-image: url("../img/pages/6263.jpg");
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+
+#login_body .row{
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#login_body button{
+    width: 100%;
+    background-color: #c37ea7;
+    border: none;
+}
+
+#login_body button:hover{
+    background-color: #62244c;
+}
+
+#error_login{
+    background-color: red;
+    margin: 0;
+    color: whitesmoke;
+}
+
+/*Avatar Header*/
+
+.imatge-header img{
+    width: 64px;
+    height: auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*  .PAGINA 404.  */
+#img_404 img{
+    display: block;
+    margin: 15vh auto;
+}
+
+/*********************            Llegir LLibre         *************************/
+
+#background_col{
+    background-color: white;
+}
+
+
+/*********************            Textos legales         *************************/
+
+
+#avis_legal h3, 
+.cookies_file h3,
+#privacitat_file h3{
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 600;
+    font-size: 60px;
+    color: whitesmoke;
+    padding: 150px 0;
+    margin-left: 100px;
+}
+
+#avis_legal #banner_legales,
+.cookies_file #banner_cookies,
+#privacitat_file #banner_privacitat{
+    background-color: #915078;
+    height: 280px;
+}
+
+#avis_legal h4,
+#privacitat_file h4{
+    font-weight: 700;
+    font-size: 25px;
+    color: #915078;
+}
+
+#avis_legal .legals_number,
+#privacitat_file .legals_number{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 150px;
+    color: #62244c;
+    padding: 25px;
+}
+
+.fa-chevron-up,
+.fa-chevron-down{
+    font-size: 40px;
+    color: #62244c;
+}
+
+.fletxes_legals{
+    display: flex;
+    align-items: center;
+}
+
+#avis_legal p,
+#avis_legal li,
+.cookies_file p,
+.cookies_file li,
+#privacitat_file p,
+#privacitat_file li{
+    color: grey;
+}
+
+#row0 span{
+    color: #915078 !important;
+}
+
+#row2 h5,
+.cookies_file h5,
+#privacitat_file h5{
+    color: #62244c !important;
+}
+
+#avis_legal a,
+.cookies_file a,
+#privacitat_file a{
+    color: #915078;
+}
+
+
+/*********************            Footer         *************************/
+footer img{
+    width: 65%;
+    padding: 5px;
+}
+
+footer h5{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+#social .fab{
+    font-size: 30px;
+    padding: 2px;
+}
+
+
+
+/* ''''''''''' MEDIAQUERIES ''''''''''''' */
+.navbar-toggler{
+    width: 100%;
+}
+
+#menu_categories{
+    padding: 10px 20px!important;
+}
+
+#navbarSupportedContent li{
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+DISPOSITIUS MENORS A 574PX
+mobiles fins a landscape mobiles
+*/
+@media (max-width: 575.98px) {
+    .container-fluid{
+        min-width: 350px;
+    }
+
+    #logo_search img{
+        display: block;
+        margin: 15px auto !important;
+    }
+
+    #usuari-section{
+        min-width: 350px;
+    }
+
+    #banner{
+        display: none;
+    }
+
+    #fitxa_llibres h4{
+        font-size: 30px;
+    }
+
+    #fitxa_llibres p{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    #fitxa_llibres .fa-heart{
+        font-size: 40px;
+    }
+
+    #navbarSupportedContent form{
+        display: none;
+    }
+
+    #nav_content li{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    footer img, footer p{
+        display: none;
+    }
+
+    #social .fab{
+        font-size: 40px;
+        padding: 5px;
+    }
+
+    #llistat_categories_section .card-text,
+    #llistat_categories_section .valoracions{
+        text-align: center;
+    }
+
+
+    #llistat_categories_section #cor_favcorits{
+        font-size: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .boto_llegeix{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #llistat_categories_section .fa-star{
+        font-size: 30px;
+    }
+
+    #login_body{
+        background-image: none;
+    }
+
+    .text_title_hero{
+        font-family: 'Oswald', sans-serif!important;
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #side_menu img{
+        padding: 5px;
+    }
+
+    #side_menu,
+    #content_profile{
+    margin: 0px;
+    }
+
+    #titol_pujar_obra h3{
+        text-align: center;
+    }
+
+    .llibre_punts{
+        font-size: 20px;
+    }
+
+    .clasificacion{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    #boto_llegir_llibre .boto_llegeix{
+        width: 100%;
+    } 
+
+}
+
+
+
+/*
+DISPOSITIUS A PARTIR DE 574PX
+Tablets
+*/
+@media (min-width: 576px) {
+    /*body{
+        background-color: yellow;
+    }*/
+
+    #banner{
+        display: none;
+    }
+
+    .contenedor_img_fitxa{
+        height: 580px;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    #fitxa_llibres h4{
+        font-size: 30px;
+    }
+
+    #fitxa_llibres p{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    #fitxa_llibres .lookIcon{
+        width: 60px;
+        height: auto;
+
+    }
+
+    #fitxa_llibres .fa-heart{
+        font-size: 40px;
+    }
+
+    #navbarSupportedContent form{
+        display: none;
+    }
+
+    #nav_content li{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    footer img, footer p{
+        display: none;
+    }
+
+    #social .fab{
+        font-size: 40px;
+        padding: 5px;
+    }
+
+    #llistat_categories_section .card-text,
+    #llistat_categories_section .valoracions{
+        text-align: center;
+    }
+
+
+    #llistat_categories_section #cor_favcorits{
+        font-size: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .boto_llegeix{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #llistat_categories_section .fa-star{
+        font-size: 30px;
+    }
+
+    #login_body{
+        background-image: none;
+    }
+
+    .text_title_hero{
+        font-family: 'Oswald', sans-serif!important;
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #noms_escriptor h2{
+        font-size: 20px;
+    }
+
+    .text_nickname{
+        font-size: 16px;
+    }
+
+    .links_menu_escriptor{
+        font-size: 15px;
+    }
+
+    .links_menu_escriptor i{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .llibre_punts{
+        font-size: 20px;
+    }
+
+    #boto_llegir_llibre .boto_llegeix{
+        width: 100%;
+    } 
+
+    .clasificacion span{
+        font-size: 50px;
+    }
+
+}
+
+
+/*DISPOSITIUS A PARTIR DE 768PX
+Tablets landscape
+*/
+@media (min-width: 992px) {
+/*@media (min-width: 768px) {*/
+    /*body{
+        background-color: grey;
+    }*/
+
+    #banner{
+        display: block;
+    }
+
+    .contenedor_img_fitxa{
+        height: 370px;
+    }
+
+    #fitxa_llibres h4{
+        font-size: 20px;
+    }
+
+    #fitxa_llibres p{
+        font-size: 16px;
+    }
+
+    #fitxa_llibres .lookIcon{
+        width: 40px;
+        height: auto;
+    }
+
+    #fitxa_llibres .fa-heart{
+        font-size: 30px;
+    }
+
+    #navbarSupportedContent form{
+        display: inherit;
+    }
+
+
+    footer img, footer p{
+        display: initial;
+        display: block;
+    }
+
+    #llistat_categories_section .card-text,
+    #llistat_categories_section .valoracions{
+        text-align: initial;
+    }
+
+
+    #llistat_categories_section #cor_favcorits{
+        font-size: 40px;
+        display: inline-block;
+
+    }
+
+    .boto_llegeix{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #llistat_categories_section .fa-star{
+        font-size: 25px;
+    }
+
+    #llistat_categories_section img{
+        min-height: 100%;
+        object-fit: cover;
+    }
+
+    #login_body{
+        background-image: url("../img/pages/6263.jpg");
+        min-height: 600px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+    }
+
+
+    .text_title_hero{
+        font-family: 'Oswald', sans-serif!important;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #noms_escriptor h2{
+        font-size: 28px;
+    }
+    
+    .text_nickname{
+        font-size: 18px;
+    }
+
+    .clasificacion span{
+        font-size: 50px;
+    }
+
+}
+/*
+DISPOSITIUS A PARTIR DE 992PX
+a partir de desktops de 13"
+*/
+@media (min-width: 1200px) {
+    /*body{
+        background-color: cadetblue;
+    }*/
+
+    .contenedor_img_fitxa{
+        height: 440px;
+    }
+
+    #fitxa_llibres p{
+        font-size: 16px;
+    }
+
+    #fitxa_llibres .lookIcon{
+        width: 40px;
+        height: auto;
+    }
+
+    #fitxa_llibres .fa-heart{
+        font-size: 30px;
+    }
+
+    #navbarSupportedContent form{
+        display: inherit;
+    }
+    
+    footer img, footer p{
+        display: inherit;
+    }
+
+    #social .fab{
+        font-size: 30px;
+        padding: 2px;
+    }
+
+    .boto_llegeix{
+        display: initial;
+        padding: 10px 30px;
+    }
+
+
+}
+
+/*BUSCADOR */
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+  }
+
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+ 
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  .autocomplete-items p {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 0px;
+    vertical-align: middle;
+  }
+
+  .autocomplete-items img{
+    width: 30%;
+    height: auto;
+    padding-left: 2%;
+  }
+
+  .autocomplete-items a {
+        display: block;
+        padding: 10px;
+        cursor: pointer;
+        background-color: #fff;
+        border-bottom: 1px solid #d4d4d4;
+  }
+
+  .autocomplete-items a:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+  }
+  .autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: #c37ea7 !important;
+    color: #ffffff;
+  }
+
+  /*FITXA CATEGORIES*/
+  #cat-section{
+      min-height: 14rem;
+  }
+
+  #cat-section h1{
+      margin-top: 10%;
+  }
+  
+ 
+
